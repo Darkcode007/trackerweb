@@ -27,7 +27,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 30px;
 }
 .logo
 {
@@ -223,150 +223,123 @@ font-weight: 500;
   }
 
 
-  @media only screen 
-  and (min-width : 1200px) {
-  .box{
-      margin-top: -30px;
-  }
-}
-
-@media only screen 
-  and (min-width : 1440px) {
-  .box{
-      margin-top: -150px;
-  }
-}
-@media (max-width:998px){
-    html {
-
-        font-size: 45%;
-    }
-}
-
-@media (max-width:768px){
-    html {
-
-        font-size: 35%;
-    }
-}
-
-
-@media (max-width:768px){
-    .row {
-
-        font-size: 35%;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
+  @media screen and (max-width: 480px){
+     
     h1{
         font-size: 30px;
-        line-height: 33px;
+        line-height:39px;
         padding-top: 10px;
     }
-    p{
-        padding: 10px;
-        padding-top: 10px;
+        p {
+            padding: 10px;
+            line-height: 19px;
+        }
+        .break{
+            display: none;
+            
+        }
+        .box{
+            margin-top: -80px;
+            width:88%;
+
+        }
+        
+        .inner-box{
+            width: 280px;
+        }
+        .center{
+            width: 250px;
+        }
+        .img-with-text-below{
+            width: 250px;
+        }
+        .row{
+            padding-top: 40px;
+            margin: 0 0px;
+            justify-content: center;
     
-    }
-    .break{
-        display: none;
+        }
+        .column{
+            padding: 0 5px;
+        }
+        .bottom{
+            width: 300px;
+        }
+        .terms{
+            display: none;
+        }
+        .header{
+            padding: 20px;
+        }
+        .container{
+            height: 56vh;
+        }
+  }
 
-    }
-    header{
-        padding: 30px;
-        padding-top: 40px;
-    }
+  @media screen and (min-width: 481px) and (max-width: 768px)
+  {
+
+
     .box{
-        width: 90%;
-        height: 760px;
-    }
-    .container{
-        height: 54vh;
+        margin-top: -380px;
     }
     .inner-box{
-        width: 280px;
+        width: 460px;
     }
-    .center
-{
-    width: 230px;
-}
-
-.bottom
-{
-    width: 300px;
-}
-.img-with-des-below{
-    padding-top: 60px;
-}
-.column{
-    padding: 0 3px;
-}
-
-
-
-
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-    h1{
-        font-size: 30px;
-        line-height: 33px;
-        padding-top: 10px;
+    .center{
+        width: 370px;
     }
-    p{
-        padding: 10px;
-        padding-top: 10px;
-    
+    .img-with-text-below{
+        width: 370px;
     }
-    .break{
-        display: none;
-
-    }
-    header{
-        padding: 30px;
-        padding-top: 40px;
-    }
-    .box{
-        width: 90%;
-        height: 760px;
-        margin-top: -120px;
-    }
-    .container{
-        height: 54vh;
-    }
-    .inner-box{
-        width: 280px;
-    }
-    .center
-{
-    width: 230px;
-}
-
-.bottom
-{
-    width: 300px;
-}
-.img-with-des-below{
-    padding-top: 60px;
-}
-.column{
-    padding: 0 3px;
-}
-
-
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-    .inner-box{
-        width: 220px;
+    .bottom{
+        width: 500px;
     }
   }
+
+  @media screen and (min-width: 1024px) 
+  {
+
+
+    .box{
+        margin-top: -560px;
+    }
+    .inner-box{
+        width: 460px;
+    }
+    .center{
+        width: 370px;
+    }
+    .img-with-text-below{
+        width: 370px;
+    }
+    .bottom{
+        width: 500px;
+    }
+    .footer{
+        display: none;
+    }
+  }
+  @media screen and (min-width: 1200px) 
+  {
+    .box{
+        margin-top: -90px;
+    }
+    .inner-box{
+        width: 460px;
+    }
+    .center{
+        width: 370px;
+    }
+    .img-with-text-below{
+        width: 370px;
+    }
+    .bottom{
+        width: 500px;
+    }
+    .footer{
+        display: none;
+    }
+
+  }
+ 
